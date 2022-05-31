@@ -41,8 +41,10 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 51, 51, 51;
+  /*--bs-primary-rgb: 26, 188, 156; */
+  --bs-primary-rgb:  44, 232, 195;
+  /*--bs-primary-rgb: 255, 0, 255; */
+  --bs-secondary-rgb: 38, 38, 38;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -93,37 +95,45 @@ body {
   position: relative;
   top: 5vw;
   bottom: 5vw;
-  width: 80vw;
-  height: 60vw;
+  width: auto;
+  height: auto;  
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  background: #FF00FF;
+  background: #fff;
 }
 
 .memory-card {
-  position: relative;
+  position: relative; 
+  left: 0.5vw;
+  right: 0.5vw;
   top: 0vw;
-  left: 5vw;
-  right: 5vw;
-  width: 17vw;
+  width: 18vw;
   height: 17vw;
   align-content: center;
   margin: 5px;
   transform: scale(1);
   transform-style: preserve-3d;
-  transition: transform .4s;
+  transition: transform .3s;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
 
-.restart-btn {
-  position: relative;
-  top: 6vw;
-  right: 50vw;
-  left: 50vw;  
-  width: 7vw;
-  height: 3vw;  
+.button-start-over {
+  background-color: #333; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   align-content: center;
+  align-self: center;
+  position: relative;
+  left: 46vw;
+  right: 50vw;
+  bottom: 10px;  
+  border: 1px solid #555555; 
 }
 
 .memory-card:active {
@@ -142,7 +152,7 @@ body {
   padding: 1vw;
   position: absolute;
   border-radius: 20px;
-  background: #2CE8D3;
+  background: #FF00FF;
   backface-visibility: hidden;
 }
 
@@ -11356,6 +11366,7 @@ html {
 
 .page-section {
   padding: 6rem 0;
+  
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11520,6 +11531,10 @@ html {
     font-size: 1.5rem;
   }
 }
+
+.portfolio {
+ background-color: #fff;
+}
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11534,7 +11549,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #fff;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11562,10 +11577,10 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #333;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #262626;
 }
