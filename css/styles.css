@@ -114,8 +114,8 @@ body {
   margin: 5px;
   transform: scale(1);
   transform-style: preserve-3d;
-  transition: transform .3s;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  transition: transform .s;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0);
 }
 
 .button-start-over {
