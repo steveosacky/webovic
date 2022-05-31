@@ -27,8 +27,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                       <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">The Game</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">The Game</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>                                                
                         <!--<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>-->
                     </ul>
                 </div>
@@ -38,7 +38,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="https://images.vectorhq.com/images/previews/6f9/weird-al-pxl-peep-93339.png" alt="..." />
+                <!--<img class="masthead-avatar mb-5" src="https://images.vectorhq.com/images/previews/6f9/weird-al-pxl-peep-93339.png" alt="..." />-->
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Webovic 2.0</h1>
                 <!-- Icon Divider
@@ -48,14 +48,14 @@
                     <div class="divider-custom-line"></div>
                 </div>-->
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">On the World Wide Web</p>
+                <p class="masthead-subheading font-weight-light mb-0">Stay Weird</p>
             </div>
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">The Game</h2>
+                <!-- Portfolio Section Heading
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">The Game</h2> -->
                 <!-- Icon Divider
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -173,9 +173,14 @@
                           <img class="back-face" src="./assets/way_signature.svg" alt="way_signature" />
                         </div>            
                     </section>
+                    <br />                    
                 </div>
             </div>
         </section>
+        <!-- Start Over Button -->
+        <div class="button-start-over" >
+            <button-start-over onClick="window.location.reload();">Start Over</button-start-over>
+        </div>
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
@@ -188,7 +193,10 @@
                     <div class="divider-custom-line"></div>
                 </div>-->
                 <!-- About Section Content-->
-                <div class="row">
+                <div class="about-img" data-framework="bob.png">                          
+                    <img class="about-img" src="" alt="" />
+                </div>
+                <div class="row">                  
                     <div class="col-lg-4 ms-auto"><p class="lead">Inspired by a man of many talents, Webovic 2.0 is the resurgence of a timeless classic virtual board game that first appeared on the world wide web in the 1990s.</p></div>
                     <div class="col-lg-4 me-auto"><p class="lead">Enjoy the game.</p></div>
                 </div>
@@ -287,16 +295,14 @@
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://bhawk1.tripod.com/osacky.htm"><i class="fa-solid fa-people-roof"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/steveosacky/webovic"><i class="fab fa-github"></i></a>                       
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Webovic 2.0</h4>
+                        <h4 class="text-uppercase mb-4">About Webovic</h4>
                         <p class="lead mb-0">
-                            Webovic 2.0 is a free to use to those who surf the web
+                            Webovic is a free to use for those who surf the web
                         </p>
                     </div>
                 </div>
