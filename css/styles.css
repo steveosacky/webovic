@@ -54,7 +54,7 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-body-bg-rgb: 0, 0, 0;
   --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -63,7 +63,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #000000;
 }
 
 *,
@@ -100,7 +100,7 @@ body {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  background: #fff;
+  background: #000000;
 }
 
 .memory-card {
@@ -119,21 +119,22 @@ body {
 }
 
 .button-start-over {
-  background-color: #333; 
+  background-color: #D1FF61; 
   border: none;
-  color: white;
+  color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-weight: 200;
   align-content: center;
   align-self: center;
   position: relative;
   left: 46vw;
   right: 50vw;
   bottom: 10px;  
-  border: 1px solid #555555; 
+  border: 3px solid #61FFF8; 
 }
 
 .memory-card:active {
@@ -11533,10 +11534,10 @@ html {
 }
 
 .portfolio {
- background-color: #fff;
+ background-color: #000000;
 }
 .portfolio .portfolio-item {
-  cursor: pointer;
+  cursor: pointer;`
   position: relative;
   display: block;
   max-width: 25rem;
@@ -11549,7 +11550,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #fff;
+  background-color: #000000;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
