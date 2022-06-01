@@ -93,11 +93,11 @@ body {
 
 .memory-game { 
   display: block;
-  margin-top: auto;
-    margin-left: auto;
+  margin-top: 1vw;
+  margin-left: 8%;
   margin-right: auto;
-  top: 5vw;
   width: 100%;  
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   background: transparent;
@@ -155,11 +155,13 @@ body {
   border-radius: 20px;
   background: #FF00FF;
   backface-visibility: hidden;
+  opacity: 65%;
 }
 
 .front-face {
   transform: rotateY(180deg);
   padding: 0vw;
+  opacity: 100%;
 }
 
 hr {
