@@ -101,7 +101,7 @@ body {
 .memory-card {      
   position: relative;
   top: 5vw;
-  left: 5px;
+  left: 5vw;
   width: 15vw;  
   height: 14vw;
   margin: 7px;
@@ -119,12 +119,13 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20vw;   
+  width: 24vw;   
   margin-bottom: 10px;
   background-color: #000000; 
   border: 1px solid #C5FF00; 
   color: #C5FF00;
   padding: 15px 32px;
+  align-content: center;
   text-align: center;
   text-decoration: none;
   font-size: auto;
