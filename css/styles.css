@@ -42,7 +42,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   /*--bs-primary-rgb: 26, 188, 156; */
-  --bs-primary-rgb:  44, 232, 195;
+  --bs-primary-rgb:  0, 224, 255;
   /*--bs-primary-rgb: 255, 0, 255; */
   --bs-secondary-rgb: 38, 38, 38;
   --bs-success-rgb: 25, 135, 84;
@@ -93,9 +93,9 @@ body {
 
 .memory-game { 
   position: relative;
-  top: 5vw;
-  bottom: 5vw;
-  width: auto;
+  top: 5px;
+  bottom: 5px;
+  width: 75vw;
   height: auto;  
   display: flex;
   align-content: center;
@@ -105,12 +105,11 @@ body {
 
 .memory-card {
   position: relative; 
-  left: 0.5vw;
-  right: 0.5vw;
   top: 0vw;
-  width: 18vw;
-  height: 17vw;
+  width: 17vw;
+  height: 16vw;
   align-content: center;
+  align-self: center;
   margin: 5px;
   transform: scale(1);
   transform-style: preserve-3d;
@@ -119,22 +118,20 @@ body {
 }
 
 .button-start-over {
-  background-color: #D1FF61; 
-  border: none;
-  color: #000000;
+  position: relative;
+  left: 40vw;
+  right: auto;
+  bottom: 10px;  
+  background-color: #000000; 
+  border: 1px solid #C5FF00; 
+  color: #C5FF00;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-weight: 200;
   align-content: center;
   align-self: center;
-  position: relative;
-  left: 46vw;
-  right: 50vw;
-  bottom: 10px;  
-  border: 3px solid #61FFF8; 
 }
 
 .memory-card:active {
