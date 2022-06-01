@@ -93,24 +93,23 @@ body {
 
 .memory-game { 
   display: block;
-  margin-top: 2vw;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;  
-  height: auto;
+  width: auto;    
   display: flex;
   flex-wrap: wrap;
   background: transparent;
 }
-
 .memory-card { 
-  display: block;
-  width: 23%;
-  height: 15vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-top: auto;
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    
+  position: relative;
+  top: 5vw;
+  left: 5px;
+  width: 15vw;  
+  height: 14vw;
   margin: 7px;
   transform: scale(1);
   transform-style: preserve-3d;
@@ -120,13 +119,13 @@ body {
 .webovic-logo {
     position: relative;
     left: 0vw;
-    width: 15vw;
+    width: 75%;    
 }
 .button-start-over { 
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15vw;   
+  width: 20vw;   
   margin-bottom: 10px;
   background-color: #000000; 
   border: 1px solid #C5FF00; 
@@ -134,7 +133,7 @@ body {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: auto;
   cursor: pointer;
 }
 .about-img {
@@ -193,7 +192,6 @@ body {
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
-
 /* Toggle this class - hide and show the popup */
 .popup .show {
   visibility: visible;
