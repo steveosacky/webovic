@@ -22,10 +22,8 @@
             <div class="container">                
                 <a class="navbar-brand" href="#page-top"> 
                     <img class="webovic-logo" src="https://fontmeme.com/permalink/220601/315acf3be3af07e85c52ed314ff0c09a.png" alt="hogan-mania-font" border="0">
-                </a>                
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
+                </a>                  
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -33,11 +31,22 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">The Story</a></li>                                                
                         <!--<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>-->
                     </ul>
-                </div>
+                </div>                 
             </div>
         </nav>        
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
+            
+            <div class="alert" onclick="myFunction()"><strong> New Notifications (1)</strong>                    
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>                                 
+            </div>
+            
+            <div class="popup" onclick="myFunction()">
+                <span class="popuptext" id="myPopup"><strong>Congratulations!</strong><br />You are going to see <strong>Weird AL</strong> at the Chicago Symphony Center on July 15th, 2022!<br />
+                    <img class="way_tickets" src="assets/way_tickets.jpg">
+                </span>
+            </div>
+            
             <div class="container">
                     <section class="memory-game">
                         <div class="memory-card" data-framework="way_fat">
