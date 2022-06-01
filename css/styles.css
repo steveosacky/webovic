@@ -94,11 +94,11 @@ body {
 .memory-game { 
   position: relative;
   top: 5px;
-  bottom: 5px;
-  width: 75vw;
+  width: auto;
   height: auto;  
   display: flex;
   align-content: center;
+  align-items: center;
   flex-wrap: wrap;
   background: transparent;
 }
@@ -106,10 +106,13 @@ body {
 .memory-card {
   position: relative; 
   top: 0vw;
-  width: 17vw;
+  left: auto;
+  right: auto;
+  width: 23%;
   height: 16vw;
   align-content: center;
   align-self: center;
+  align-items: center;
   margin: 5px;
   transform: scale(1);
   transform-style: preserve-3d;
@@ -119,9 +122,9 @@ body {
 
 .button-start-over {
   position: relative;
-  left: 40vw;
-  right: auto;
+  top: auto;
   bottom: 10px;  
+  left: calc(50% - 8vw);
   background-color: #000000; 
   border: 1px solid #C5FF00; 
   color: #C5FF00;
@@ -130,8 +133,6 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  align-content: center;
-  align-self: center;
 }
 
 .memory-card:active {
