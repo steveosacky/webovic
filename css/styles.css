@@ -92,13 +92,10 @@ body {
 }
 
 .memory-game { 
-  position: relative;
   top: 5px;
   width: auto;
   height: auto;  
   display: flex;
-  align-content: center;
-  align-items: center;
   flex-wrap: wrap;
   background: transparent;
 }
@@ -120,19 +117,25 @@ body {
   box-shadow: 1px 1px 1px rgba(0,0,0,0);
 }
 
-.button-start-over {
-  position: relative;
-  top: auto;
-  bottom: 10px;  
-  left: calc(50% - 8vw);
+.button-start-over { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;   
+  margin-bottom: 10px;
   background-color: #000000; 
   border: 1px solid #C5FF00; 
   color: #C5FF00;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
+}
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;    
 }
 
 .memory-card:active {
