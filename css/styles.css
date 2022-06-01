@@ -11532,6 +11532,7 @@ html {
 
 .portfolio {
     background-image: url("https://steveosacky.github.io/webovic/assets/lyrics-poster.png");
+    background-size: cover;
 }
 .portfolio .portfolio-item {
   cursor: pointer;`
