@@ -90,12 +90,19 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+.portfolio {
+    position: relative;    
+    background-image: url("https://steveosacky.github.io/webovic/assets/lyrics-poster.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
 .memory-game {
   position: relative;
   top: 2vw;
-  width: 50vw;
-  height: auto;
+  bottom: 2vw;
+  width: auto;
+  height: 100%;
   display: inline-block;
   width: auto;    
   display: flex;
@@ -104,26 +111,28 @@ body {
 }
 .memory-card {      
   position: relative;      
-  left: 7vw;
-  width: 16vw;  
-  height: 14vw;
+  left: 3vw;
+  width: 20%;  
+  height: 14vh;
   margin: 7px;
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .s;
   box-shadow: 1px 1px 1px rgba(0,0,0,0);
+  box-sizing: border-box;
 }
 .webovic-logo {
     position: relative;
     left: 0vw;
-    width: 75%;    
+    width: 75%; 
 }
 .button-start-over { 
-  display: block;
+  position: relative;  
   margin-left: auto;
   margin-right: auto;
   width: 24vw;   
   margin-bottom: 10px;
+  margin-top: 10px;
   background-color: #000000; 
   border: 1px solid #C5FF00; 
   color: #C5FF00;
@@ -11620,13 +11629,6 @@ html {
   }
 }
 
-.portfolio {
-    position: relative;
-    background-image: url("https://steveosacky.github.io/webovic/assets/lyrics-poster.png");
-    background-size: cover;
-    width: 100%;
-    height: 75vw;
-}
 .portfolio .portfolio-item {
   cursor: pointer;`
   position: relative;
