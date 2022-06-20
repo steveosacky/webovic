@@ -178,6 +178,9 @@ body {
   animation-name: animatetop;
   animation-duration: 0.4s
 }
+.way_nothin {
+    width: 75vw;
+}
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
